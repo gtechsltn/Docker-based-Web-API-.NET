@@ -1,0 +1,10 @@
+﻿version: '3.4'
+
+services:
+  webapi:
+    image: dockerwebapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"

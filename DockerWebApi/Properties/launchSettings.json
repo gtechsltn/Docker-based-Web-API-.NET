@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dockerFile": "Dockerfile",
+      "imageName": "DockerWebApi_image",
+      "targetFramework": "net8.0"
+    }
+  }
+}
